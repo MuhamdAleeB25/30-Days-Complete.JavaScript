@@ -20,3 +20,16 @@ Each day's tasks, exercises, and projects are organized into dedicated folders:
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/MuhamdAleeB25/30-Days-Complete.JavaScript.git](https://github.com/MuhamdAleeB25/30-Days-Complete.JavaScript.git)
+
+
+Navigate to the daily folder:
+  cd Day1-JS
+
+  Run the files:
+
+node variable.js
+
+🔗 Let's Connect
+Stay updated with my technical content and AI automation projects:
+
+LinkedIn: https://www.linkedin.com/in/muhammadalee28/
