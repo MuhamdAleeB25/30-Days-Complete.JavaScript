@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9: Real-World Problem Solving</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Day 09: Advanced Events & Problem Solving</h1>
+
+    <!-- Problem 1: Form Validation -->
+      <section class="box">
+        <h3>1. Real-World Form Validation</h3>
+        <form id="signup-form">
+            <input type="email" id="email" placeholder="enter your email" >
+            <p id="email-error" class="error"></p>
+            <button type="submit">Submit</button>
+        </form>
+      </section>
+ 
+      <!-- Problem 2: Debounce Search -->
+      <section class="box">
+        <h3>2.Optimized Search Bar (Debouncing)</h3>
+        <input type="text" id="search-bar" placeholder="type to search here...">
+        <p id="search-status">API CALLS : 0</p>
+      </section>
+
+      <!-- Problem 3: Event Delegation -->
+       <section class="box">
+        <h3>3. Dynamic Todo List (Event Delegation)</h3>
+        <ul id="todo-list">
+            <li>TASK 1 <button class="delete-btn">X</button></li>
+            <li>TASK 2 <button class="delete-btn">X</button></li>
+        </ul>
+       </section>
+
+    <script src="event-delegation.js"></script>
+    <script src="form-validation.js"></script>
+    <script src="debounce-search.js"></script>
+    <script src="exercises.js"></script>
+</body>
+</html>
